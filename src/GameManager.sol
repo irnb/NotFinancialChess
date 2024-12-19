@@ -4,9 +4,9 @@ pragma solidity ^0.8.24;
 import {IGameManager} from "./interfaces/IGameManager.sol";
 import {IYieldHandler} from "./interfaces/IYieldHandler.sol";
 import {IConsensusLogic} from "./interfaces/IConsensusLogic.sol";
-import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
-import {ReentrancyGuard} from "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import {Pausable} from "@openzeppelin/contracts/security/Pausable.sol";
+import {Ownable} from "lib/openzeppelin-contracts/contracts/access/Ownable.sol";
+import {ReentrancyGuard} from "lib/openzeppelin-contracts/contracts/utils/ReentrancyGuard.sol";
+import {Pausable} from "lib/openzeppelin-contracts/contracts/utils/Pausable.sol";
 
 /**
  * @title GameManager
